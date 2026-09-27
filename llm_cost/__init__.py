@@ -9,6 +9,7 @@ from .pricing import (
     parse_pricing,
 )
 from .estimate import CostEstimate, estimate_cost
+from .usage import UsageParseError, UsageProblem, UsageRecord, load_usage
 
 __all__ = [
     "ModelPrice",
@@ -19,4 +20,8 @@ __all__ = [
     "parse_pricing",
     "CostEstimate",
     "estimate_cost",
+    "UsageParseError",
+    "UsageProblem",
+    "UsageRecord",
+    "load_usage",
 ]
